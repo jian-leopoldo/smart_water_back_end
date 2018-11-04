@@ -194,3 +194,573 @@ Processing by LocalesController#index as HTML
 Completed 204 No Content in 17929ms (ActiveRecord: 0.0ms)
 
 
+Started GET "/locales" for 172.17.0.1 at 2018-11-04 06:00:40 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (0.6ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 222ms (ActiveRecord: 0.0ms)
+
+
+  
+  [1m[36mCACHE Locale Load (0.0ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `respond_to' for #<LocalesController:0x00007fe9405f3148>
+Did you mean?  respond_to?):
+  
+app/controllers/locales_controller.rb:4:in `index'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-04 06:00:41 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales" for 172.17.0.1 at 2018-11-04 06:01:15 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms)
+
+
+  
+  [1m[36mCACHE Locale Load (0.0ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `respond_to' for #<LocalesController:0x00007fe9380e14a0>
+Did you mean?  respond_to?):
+  
+app/controllers/locales_controller.rb:4:in `index'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-04 06:01:16 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales" for 172.17.0.1 at 2018-11-04 06:01:59 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (0.8ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms)
+
+
+  
+  [1m[36mCACHE Locale Load (0.0ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `respond_to' for #<LocalesController:0x00007fe9419e9e68>
+Did you mean?  respond_to?):
+  
+app/controllers/locales_controller.rb:4:in `index'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-04 06:01:59 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales" for 172.17.0.1 at 2018-11-04 06:03:07 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:4
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 2.0ms)
+
+
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" ORDER BY "locales"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLocale Create (4.0ms)[0m  [1m[32mINSERT INTO "locales" ("title", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Minha casa minha vida"], ["address", "Rua muito massa ou n"], ["created_at", "2018-11-04 06:06:44.930449"], ["updated_at", "2018-11-04 06:06:44.930449"]]
+  [1m[35m (260.9ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/locales" for 172.17.0.1 at 2018-11-04 06:06:50 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:4
+Completed 200 OK in 34ms (Views: 0.1ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:08:09 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 404 Not Found in 8ms (ActiveRecord: 5.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Locale without an ID):
+  
+app/controllers/locales_controller.rb:25:in `set_locale'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-04 06:08:09 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:09:24 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:25
+Completed 204 No Content in 17ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:09:28 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (1.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:25
+Completed 204 No Content in 9ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:09:34 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (1.7ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:25
+Completed 204 No Content in 4ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:09:39 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:25
+Completed 204 No Content in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:09:41 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (1.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:25
+Completed 204 No Content in 11ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:09:42 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (1.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:25
+Completed 204 No Content in 6ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:09:42 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:25
+Completed 204 No Content in 1ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:09:43 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (1.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:25
+Completed 204 No Content in 6ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:09:43 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (2.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:25
+Completed 204 No Content in 7ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-04 06:09:46 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/2" for 172.17.0.1 at 2018-11-04 06:09:48 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:25
+Completed 404 Not Found in 2ms (ActiveRecord: 0.4ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Locale with 'id'=2):
+  
+app/controllers/locales_controller.rb:25:in `set_locale'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-04 06:09:49 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/2" for 172.17.0.1 at 2018-11-04 06:10:46 +0000
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mLocale Load (1.8ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:25
+Completed 404 Not Found in 154ms (ActiveRecord: 16.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Locale with 'id'=2):
+  
+app/controllers/locales_controller.rb:25:in `set_locale'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-04 06:10:46 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:10:49 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (1.1ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:25
+Completed 204 No Content in 19ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/locales/" for 172.17.0.1 at 2018-11-04 06:10:51 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (1.2ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:10:54 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (0.8ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:25
+Completed 204 No Content in 4ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/locale/1" for 172.17.0.1 at 2018-11-04 06:10:59 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/locale/1"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-04 06:10:59 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:11:06 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (1.0ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:25
+Completed 204 No Content in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:11:09 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:25
+Completed 204 No Content in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:15:28 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (1.8ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE Locale Load (0.1ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:27
+Completed 204 No Content in 26429ms (ActiveRecord: 16.9ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:16:15 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (1.1ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:28
+Completed 204 No Content in 4225ms (ActiveRecord: 13.6ms)
+
+
+Started GET "/locale/1" for 172.17.0.1 at 2018-11-04 06:16:23 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/locale/1"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-04 06:16:24 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:16:36 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (1.2ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:26
+Completed 204 No Content in 16ms (ActiveRecord: 4.6ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:16:47 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:26
+Completed 204 No Content in 1ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:17:32 +0000
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:27
+Completed 204 No Content in 12601ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:17:48 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:27
+Completed 204 No Content in 8037ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:19:18 +0000
+Processing by LocalesController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:27
+Completed 204 No Content in 3966ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/locales/2" for 172.17.0.1 at 2018-11-04 06:19:45 +0000
+Processing by LocalesController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:26
+Completed 404 Not Found in 7ms (ActiveRecord: 4.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Locale with 'id'=2):
+  
+app/controllers/locales_controller.rb:26:in `set_locale'
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:20:03 +0000
+Processing by LocalesController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:26
+Completed 204 No Content in 8ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/locales/1" for 172.17.0.1 at 2018-11-04 06:20:20 +0000
+Processing by LocalesController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mLocale Load (0.9ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:26
+Completed 200 OK in 21ms (Views: 0.2ms | ActiveRecord: 8.0ms)
+
+

@@ -1,9 +1,13 @@
 class LocalesController < ApplicationController
+  before_action :set_locale, only: [:show, :destroy, :update]
+
   def index
-    byebug
+    @locales = Locale.all
+    render json: @locales.to_json
   end
 
   def show
+    render json: @locale.to_json
   end
 
   def destroy
@@ -15,5 +19,11 @@ class LocalesController < ApplicationController
   def create
   end
 
+
+  private 
+
+  def set_locale
+    @locale = Locale.find(params[:id])
+  end
 
 end
