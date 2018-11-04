@@ -1,3 +1,3 @@
 class Locale < ApplicationRecord
-    has_many :monitoring_logs
+    has_many :monitoringpoints
 end

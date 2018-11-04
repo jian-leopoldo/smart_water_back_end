@@ -1,2 +1,0 @@
-class Monitoringpoint < ApplicationRecord
-end

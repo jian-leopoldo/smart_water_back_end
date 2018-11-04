@@ -2,10 +2,10 @@
 
 one:
   title: MyString
-  type: 
   description: MyText
+  locale_id: 1
 
 two:
   title: MyString
-  type: 
   description: MyText
+  locale_id: 1
