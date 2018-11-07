@@ -14,9 +14,16 @@ class LocalesController < ApplicationController
   end
 
   def update
+
   end
 
   def create
+    @locale = Locale.new(params)
+    if @locale.save
+      render json: @locale.to_json
+    else
+      render json: @local.errors.to_json
+    end
   end
 
 
