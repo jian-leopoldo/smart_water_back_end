@@ -1759,3 +1759,200 @@ Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
 
 
   [1m[36mMonitoringPoint Load (9.1ms)[0m  [1m[34mSELECT  "monitoring_points".* FROM "monitoring_points" ORDER BY "monitoring_points"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started POST "/locales/2/monitoring_point" for 172.17.0.1 at 2018-11-11 02:33:31 +0000
+  
+ActionController::RoutingError (No route matches [POST] "/locales/2/monitoring_point"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/locales/2/monitoring_points" for 172.17.0.1 at 2018-11-11 02:34:35 +0000
+Processing by MonitoringPointsController#create as HTML
+  Parameters: {"locale"=>{"title"=>"Banheiro 1", "description"=>"Banheiro maneiro"}, "locale_id"=>"2", "monitoring_point"=>{}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/monitoring_points_controller.rb:31
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/monitoring_points_controller.rb:31
+Completed 200 OK in 94ms (Views: 0.2ms | ActiveRecord: 8.6ms)
+
+
+Started POST "/locales/2/monitoring_points" for 172.17.0.1 at 2018-11-11 02:35:20 +0000
+Processing by MonitoringPointsController#create as HTML
+  Parameters: {"monitoring_point"=>{"title"=>"Titulo maneiro", "description"=>"Titulo maneiro"}, "locale_id"=>"2"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/monitoring_points_controller.rb:31
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/monitoring_points_controller.rb:31
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 3.9ms)
+
+
+Started POST "/locales/2/monitoring_points" for 172.17.0.1 at 2018-11-11 02:36:19 +0000
+Processing by MonitoringPointsController#create as HTML
+  Parameters: {"monitoring_point"=>{"title"=>"Banheiro 1 ", "description"=>"Banheiro 1", "locale_id"=>"2"}, "locale_id"=>"2"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/monitoring_points_controller.rb:31
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/monitoring_points_controller.rb:31
+  [1m[36mMonitoringPoint Create (15.6ms)[0m  [1m[32mINSERT INTO "monitoring_points" ("title", "description", "locale_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Banheiro 1 "], ["description", "Banheiro 1"], ["locale_id", 2], ["created_at", "2018-11-11 02:36:19.305328"], ["updated_at", "2018-11-11 02:36:19.305328"]]
+  ↳ app/controllers/monitoring_points_controller.rb:31
+  [1m[35m (19.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/monitoring_points_controller.rb:31
+Completed 200 OK in 111ms (Views: 0.1ms | ActiveRecord: 40.0ms)
+
+
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT  "monitoring_points".* FROM "monitoring_points" ORDER BY "monitoring_points"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mMonitoringPoint Load (0.9ms)[0m  [1m[34mSELECT  "monitoring_points".* FROM "monitoring_points" ORDER BY "monitoring_points"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mLocale Load (0.9ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mLocale Load (1.0ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mLocale Load (0.9ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mMonitoringPoint Load (0.7ms)[0m  [1m[34mSELECT  "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1 LIMIT $2[0m  [["locale_id", 2], ["LIMIT", 11]]
+Started GET "/places" for 172.17.0.1 at 2018-11-11 02:41:54 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/places"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales" for 172.17.0.1 at 2018-11-11 02:41:58 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (0.7ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+  [1m[36mMonitoringLog Load (16.5ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" ORDER BY "monitoring_logs"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started POST "/locales/2/monitoring_points/1/monitoring_logs" for 172.17.0.1 at 2018-11-11 02:51:38 +0000
+Processing by MonitoringLogsController#create as */*
+  Parameters: {"monitoring_logs"=>{"monitoring_point"=>1, "point_value"=>2.5}, "locale_id"=>"2", "monitoring_point_id"=>"1", "monitoring_log"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 6.5ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: monitoring_log):
+  
+app/controllers/monitoring_logs_controller.rb:42:in `monitoring_log_params'
+app/controllers/monitoring_logs_controller.rb:30:in `create'
+Started POST "/locales/2/monitoring_points/1/monitoring_logs" for 172.17.0.1 at 2018-11-11 02:51:47 +0000
+Processing by MonitoringLogsController#create as */*
+  Parameters: {"monitoring_log"=>{"monitoring_point"=>1, "point_value"=>2.5}, "locale_id"=>"2", "monitoring_point_id"=>"1"}
+Unpermitted parameter: :monitoring_point
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/monitoring_logs_controller.rb:31
+  [1m[36mMonitoringLog Create (34.0ms)[0m  [1m[32mINSERT INTO "monitoring_logs" ("point_value", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["point_value", 2.5], ["created_at", "2018-11-11 02:51:47.384782"], ["updated_at", "2018-11-11 02:51:47.384782"]]
+  ↳ app/controllers/monitoring_logs_controller.rb:31
+  [1m[35m (42.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/monitoring_logs_controller.rb:31
+Completed 200 OK in 87ms (Views: 0.3ms | ActiveRecord: 78.2ms)
+
+
+Started POST "/locales/2/monitoring_points/1/monitoring_logs" for 172.17.0.1 at 2018-11-11 02:52:01 +0000
+Processing by MonitoringLogsController#create as */*
+  Parameters: {"monitoring_log"=>{"monitoring_point_id"=>1, "point_value"=>2.5}, "locale_id"=>"2", "monitoring_point_id"=>"1"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/monitoring_logs_controller.rb:31
+  [1m[36mMonitoringLog Create (0.3ms)[0m  [1m[32mINSERT INTO "monitoring_logs" ("monitoring_point_id", "point_value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["monitoring_point_id", 1], ["point_value", 2.5], ["created_at", "2018-11-11 02:52:01.373577"], ["updated_at", "2018-11-11 02:52:01.373577"]]
+  ↳ app/controllers/monitoring_logs_controller.rb:31
+  [1m[35m (41.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/monitoring_logs_controller.rb:31
+Completed 200 OK in 45ms (Views: 0.1ms | ActiveRecord: 41.9ms)
+
+
+Started POST "/locales/2/monitoring_points/1/monitoring_logs" for 172.17.0.1 at 2018-11-11 02:52:42 +0000
+Processing by MonitoringLogsController#create as */*
+  Parameters: {"monitoring_log"=>{"point_value"=>2.5}, "locale_id"=>"2", "monitoring_point_id"=>"1"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `to_h' for "1":String
+Did you mean?  to_f
+               to_r
+               to_i
+               to_s
+               to_c
+               to_d):
+  
+app/controllers/monitoring_logs_controller.rb:42:in `monitoring_log_params'
+app/controllers/monitoring_logs_controller.rb:30:in `create'
+Started POST "/locales/2/monitoring_points/1/monitoring_logs" for 172.17.0.1 at 2018-11-11 02:52:55 +0000
+Processing by MonitoringLogsController#create as */*
+  Parameters: {"monitoring_log"=>{"point_value"=>2.5}, "locale_id"=>"2", "monitoring_point_id"=>"1"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/monitoring_logs_controller.rb:31
+  [1m[36mMonitoringLog Create (0.4ms)[0m  [1m[32mINSERT INTO "monitoring_logs" ("monitoring_point_id", "point_value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["monitoring_point_id", 1], ["point_value", 2.5], ["created_at", "2018-11-11 02:52:55.478965"], ["updated_at", "2018-11-11 02:52:55.478965"]]
+  ↳ app/controllers/monitoring_logs_controller.rb:31
+  [1m[35m (44.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/monitoring_logs_controller.rb:31
+Completed 200 OK in 59ms (Views: 0.1ms | ActiveRecord: 48.7ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-11 02:54:26 +0000
+  
+NameError (undefined local variable or method `_' for main:Object):
+  
+config/routes.rb:10:in `<main>'
+Started GET "/locales" for 172.17.0.1 at 2018-11-11 02:54:28 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (3.8ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 19ms (Views: 0.1ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-11 02:54:32 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/locales/2/monitoring_points/1/monitoring_logs" for 172.17.0.1 at 2018-11-11 02:56:06 +0000
+  
+NameError (undefined local variable or method `_' for main:Object):
+  
+config/routes.rb:10:in `<main>'
+Started GET "/locales/2/monitoring_points/1/monitoring_logs" for 172.17.0.1 at 2018-11-11 02:56:33 +0000
+Processing by MonitoringLogsController#index as */*
+  Parameters: {"locale_id"=>"2", "monitoring_point_id"=>"1", "monitoring_log"=>{}}
+  [1m[36mMonitoringLog Load (0.5ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/controllers/monitoring_logs_controller.rb:6
+Completed 200 OK in 16ms (Views: 0.1ms | ActiveRecord: 4.3ms)
+
+

@@ -39,7 +39,7 @@ class MonitoringPointsController < ApplicationController
   private 
 
   def monitoring_point_params
-    params.require(:locale).permit(:title, :description, :locale_id)    
+    params.require(:monitoring_point).permit(:title, :description, :locale_id)    
   end
 
   def set_locale
