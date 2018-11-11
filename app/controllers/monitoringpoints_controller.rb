@@ -1,2 +1,0 @@
-class MonitoringpointsController < ApplicationController
-end

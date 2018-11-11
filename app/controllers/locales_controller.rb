@@ -18,7 +18,7 @@ class LocalesController < ApplicationController
   end
 
   def create
-    @locale = Locale.new(params)
+    @locale = Locale.new(locale_params)
     if @locale.save
       render json: @locale.to_json
     else
@@ -28,6 +28,10 @@ class LocalesController < ApplicationController
 
 
   private 
+
+  def locale_params
+    params.require(:locale).permit(:title, :description, :address)    
+  end
 
   def set_locale
     @locale = Locale.find(params[:id])
