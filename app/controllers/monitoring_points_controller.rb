@@ -1,5 +1,5 @@
 class MonitoringPointsController < ApplicationController
-  before_action :set_locale, only: [:show, :destroy, :update]
+  before_action :set_locale, only: [:show, :destroy, :update, :monitoring_logs_show]
 
   def index
     @monitoring_point = MonitoringPoint.all
@@ -8,6 +8,10 @@ class MonitoringPointsController < ApplicationController
 
   def show
     render json: @monitoring_point.to_json
+  end
+
+  def monitoring_logs_show
+    render json: @monitoring_point.monitoring_logs_response
   end
 
   def destroy
@@ -43,6 +47,6 @@ class MonitoringPointsController < ApplicationController
   end
 
   def set_locale
-    @monitoring_point = MonitoringPoint.find(params[:id])
+    @monitoring_point = MonitoringPoint.find(params[:id] || params[:monitoring_point_id])
   end
 end

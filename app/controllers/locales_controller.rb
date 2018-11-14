@@ -1,5 +1,5 @@
 class LocalesController < ApplicationController
-  before_action :set_locale, only: [:show, :destroy, :update]
+  before_action :set_locale, only: [:show, :destroy, :update, :show_monitoring_points]
 
   def index
     @locales = Locale.all
@@ -11,6 +11,10 @@ class LocalesController < ApplicationController
   end
 
   def destroy
+  end
+
+  def show_monitoring_points
+    render json: @locale.as_json.merge(monitoring_points: @locale.monitoring_points.map(&:monitoring_logs_response))
   end
 
   def update
@@ -34,7 +38,7 @@ class LocalesController < ApplicationController
   end
 
   def set_locale
-    @locale = Locale.find(params[:id])
+    @locale = Locale.find(params[:id] || params[:locale_id])
   end
 
 end

@@ -1981,3 +1981,1927 @@ Completed 200 OK in 16ms (Views: 0.1ms | ActiveRecord: 4.3ms)
   [1m[35m (0.8ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
   [1m[36mMonitoringLog Load (1.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
   [1m[36mMonitoringLog Load (0.7ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+Started GET "/" for 172.17.0.1 at 2018-11-13 22:59:01 +0000
+  
+PG::ConnectionBad (could not connect to server: Connection refused
+	Is the server running on host "172.17.0.4" and accepting
+	TCP/IP connections on port 5432?
+):
+  
+pg (1.1.2) lib/pg.rb:56:in `initialize'
+pg (1.1.2) lib/pg.rb:56:in `new'
+pg (1.1.2) lib/pg.rb:56:in `connect'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:684:in `connect'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:215:in `initialize'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `new'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `postgresql_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+better_errors (2.5.0) lib/better_errors/middleware.rb:59:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-13 22:59:02 +0000
+  
+PG::ConnectionBad (could not connect to server: Connection refused
+	Is the server running on host "172.17.0.4" and accepting
+	TCP/IP connections on port 5432?
+):
+  
+pg (1.1.2) lib/pg.rb:56:in `initialize'
+pg (1.1.2) lib/pg.rb:56:in `new'
+pg (1.1.2) lib/pg.rb:56:in `connect'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:684:in `connect'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:215:in `initialize'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `new'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `postgresql_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+better_errors (2.5.0) lib/better_errors/middleware.rb:59:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 172.17.0.1 at 2018-11-13 23:00:24 +0000
+  [1m[35m (16.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (9.7ms)
+Completed 200 OK in 44ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-13 23:00:25 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales" for 172.17.0.1 at 2018-11-13 23:05:07 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (66.4ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 130ms (Views: 0.1ms | ActiveRecord: 90.8ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-13 23:05:51 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales/2/" for 172.17.0.1 at 2018-11-13 23:15:55 +0000
+Processing by LocalesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mLocale Load (1.7ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:37
+Completed 200 OK in 71ms (Views: 0.2ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/locales/2/monitoring_points" for 172.17.0.1 at 2018-11-13 23:16:00 +0000
+Processing by MonitoringPointsController#index as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mMonitoringPoint Load (25.7ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points"[0m
+  ↳ app/controllers/monitoring_points_controller.rb:6
+Completed 200 OK in 56ms (Views: 0.1ms | ActiveRecord: 29.3ms)
+
+
+Started GET "/locales/2/monitoring_points/1" for 172.17.0.1 at 2018-11-13 23:16:04 +0000
+Processing by MonitoringPointsController#show as HTML
+  Parameters: {"locale_id"=>"2", "id"=>"1"}
+  [1m[36mMonitoringPoint Load (3.1ms)[0m  [1m[34mSELECT  "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/monitoring_points_controller.rb:50
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/locales/2/monitoring_points/1/monitoring_logs_show" for 172.17.0.1 at 2018-11-13 23:16:07 +0000
+Processing by MonitoringPointsController#monitoring_logs_show as HTML
+  Parameters: {"locale_id"=>"2", "monitoring_point_id"=>"1"}
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find MonitoringPoint without an ID):
+  
+app/controllers/monitoring_points_controller.rb:50:in `set_locale'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-13 23:16:07 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/2/monitoring_points/1/monitoring_logs_show" for 172.17.0.1 at 2018-11-13 23:16:46 +0000
+Processing by MonitoringPointsController#monitoring_logs_show as HTML
+  Parameters: {"locale_id"=>"2", "monitoring_point_id"=>"1"}
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT  "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/monitoring_points_controller.rb:50
+  [1m[35m (57.6ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (1.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.1ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 204 No Content in 150ms (ActiveRecord: 69.7ms)
+
+
+Started GET "/locales/2/monitoring_points/1/monitoring_logs_show" for 172.17.0.1 at 2018-11-13 23:17:04 +0000
+Processing by MonitoringPointsController#monitoring_logs_show as HTML
+  Parameters: {"locale_id"=>"2", "monitoring_point_id"=>"1"}
+  [1m[36mMonitoringPoint Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/monitoring_points_controller.rb:51
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 204 No Content in 24238ms (ActiveRecord: 12.7ms)
+
+
+Started GET "/locales/2/monitoring_points/1/monitoring_logs_show" for 172.17.0.1 at 2018-11-13 23:17:37 +0000
+Processing by MonitoringPointsController#monitoring_logs_show as HTML
+  Parameters: {"locale_id"=>"2", "monitoring_point_id"=>"1"}
+  [1m[36mMonitoringPoint Load (3.8ms)[0m  [1m[34mSELECT  "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/monitoring_points_controller.rb:50
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 204 No Content in 41ms (ActiveRecord: 13.3ms)
+
+
+Started GET "/locales/2/monitoring_points/2/monitoring_logs_show" for 172.17.0.1 at 2018-11-13 23:17:45 +0000
+Processing by MonitoringPointsController#monitoring_logs_show as HTML
+  Parameters: {"locale_id"=>"2", "monitoring_point_id"=>"2"}
+  [1m[36mMonitoringPoint Load (0.7ms)[0m  [1m[34mSELECT  "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/monitoring_points_controller.rb:50
+Completed 404 Not Found in 3ms (ActiveRecord: 0.7ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find MonitoringPoint with 'id'=2):
+  
+app/controllers/monitoring_points_controller.rb:50:in `set_locale'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-13 23:17:45 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/2/monitoring_points/1/monitoring_logs_show" for 172.17.0.1 at 2018-11-13 23:17:50 +0000
+Processing by MonitoringPointsController#monitoring_logs_show as HTML
+  Parameters: {"locale_id"=>"2", "monitoring_point_id"=>"1"}
+  [1m[36mMonitoringPoint Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/monitoring_points_controller.rb:50
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.6ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 204 No Content in 6ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/locales/2/monitoring_points/2/monitoring_logs" for 172.17.0.1 at 2018-11-13 23:17:58 +0000
+Processing by MonitoringLogsController#index as HTML
+  Parameters: {"locale_id"=>"2", "monitoring_point_id"=>"2"}
+  [1m[36mMonitoringLog Load (1.0ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/controllers/monitoring_logs_controller.rb:6
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locales/2/monitoring_points/1/monitoring_logs" for 172.17.0.1 at 2018-11-13 23:18:02 +0000
+Processing by MonitoringLogsController#index as HTML
+  Parameters: {"locale_id"=>"2", "monitoring_point_id"=>"1"}
+  [1m[36mMonitoringLog Load (0.5ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/controllers/monitoring_logs_controller.rb:6
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales/2/monitoring_points/1/monitoring_logs_show" for 172.17.0.1 at 2018-11-13 23:18:07 +0000
+Processing by MonitoringPointsController#monitoring_logs_show as HTML
+  Parameters: {"locale_id"=>"2", "monitoring_point_id"=>"1"}
+  [1m[36mMonitoringPoint Load (1.2ms)[0m  [1m[34mSELECT  "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/monitoring_points_controller.rb:50
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.6ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 204 No Content in 10ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/locales/2/monitoring_points/1/monitoring_logs" for 172.17.0.1 at 2018-11-13 23:18:20 +0000
+Processing by MonitoringLogsController#index as HTML
+  Parameters: {"locale_id"=>"2", "monitoring_point_id"=>"1"}
+  [1m[36mMonitoringLog Load (0.5ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/controllers/monitoring_logs_controller.rb:6
+Completed 200 OK in 21ms (Views: 0.2ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/locales/2/monitoring_points/1/monitoring_logs_show" for 172.17.0.1 at 2018-11-13 23:18:24 +0000
+Processing by MonitoringPointsController#monitoring_logs_show as HTML
+  Parameters: {"locale_id"=>"2", "monitoring_point_id"=>"1"}
+  [1m[36mMonitoringPoint Load (1.7ms)[0m  [1m[34mSELECT  "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/monitoring_points_controller.rb:50
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 42ms (Views: 0.3ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/locales/2/monitoring_points" for 172.17.0.1 at 2018-11-13 23:23:31 +0000
+  
+AbstractController::ActionNotFound (The action 'monitoring_points' could not be found for LocalesController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+better_errors (2.5.0) lib/better_errors/middleware.rb:59:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-13 23:23:31 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:23:48 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `monitoring_points' for nil:NilClass):
+  
+app/controllers/locales_controller.rb:17:in `show_monitoring_points'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-13 23:23:48 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:25:08 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+Completed 404 Not Found in 13ms (ActiveRecord: 7.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Locale without an ID):
+  
+app/controllers/locales_controller.rb:41:in `set_locale'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-13 23:25:09 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:25:26 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (1.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.7ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 75ms (Views: 0.2ms | ActiveRecord: 20.0ms)
+
+
+Started GET "/locales/2/monitoring_points" for 172.17.0.1 at 2018-11-13 23:25:54 +0000
+Processing by MonitoringPointsController#index as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mMonitoringPoint Load (0.4ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points"[0m
+  ↳ app/controllers/monitoring_points_controller.rb:6
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:26:10 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.5ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.3ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 58ms (Views: 0.1ms | ActiveRecord: 14.7ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:28:31 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:28:45 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:28:50 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:29:22 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (5.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.4ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.3ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 57ms (Views: 0.2ms | ActiveRecord: 17.6ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:30:12 +0000
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:30:12 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.5ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 1.8ms)
+
+
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (2.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (1.7ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.8ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:30:16 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:30:16 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  [1m[36mLocale Load (1.9ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mMonitoringPoint Load (1.1ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[36mLocale Load (1.7ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringPoint Load (1.8ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[36mMonitoringLog Load (0.7ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.2ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  [1m[35m (3.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:10
+  ↳ app/models/monitoring_point.rb:8
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 5.8ms)
+
+
+  [1m[36mMonitoringLog Load (0.7ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:30:31 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.9ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:32:49 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+Completed 500 Internal Server Error in 169ms (ActiveRecord: 13.7ms)
+
+
+  
+NameError (undefined local variable or method `monitoring_points' for #<LocalesController:0x00007fabf155a830>):
+  
+app/controllers/locales_controller.rb:17:in `show_monitoring_points'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-13 23:32:50 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:33:05 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.2ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.5ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.1ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 72ms (Views: 0.5ms | ActiveRecord: 17.2ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:34:08 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.5ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:34:12 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.5ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:36:20 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.6ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.9ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:36:20 +0000
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mMonitoringLog Load (0.9ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.1ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  [1m[36mLocale Load (3.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+  ↳ app/controllers/locales_controller.rb:41
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 3.0ms)
+
+
+  [1m[36mMonitoringPoint Load (1.0ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.6ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:37:45 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:37:45 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:37:59 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:37:59 +0000
+  [1m[36mMonitoringPoint Load (0.4ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+Processing by LocalesController#show_monitoring_points as HTML
+  [1m[36mMonitoringLog Load (0.9ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  Parameters: {"locale_id"=>"2"}
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 2.3ms)
+
+
+  [1m[36mLocale Load (3.0ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.4ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.5ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:39:13 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (1.8ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-13 23:39:40 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/locales/1/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:39:41 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"1"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 1]]
+  ↳ app/controllers/locales_controller.rb:17
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locales/1/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:39:43 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"1"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 1]]
+  ↳ app/controllers/locales_controller.rb:17
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locales/1/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:39:45 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"1"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.4ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 1]]
+  ↳ app/controllers/locales_controller.rb:17
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:39:49 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/places" for 172.17.0.1 at 2018-11-13 23:39:53 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/places"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales" for 172.17.0.1 at 2018-11-13 23:39:55 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:39:57 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.5ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:39:59 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-13 23:40:04 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:40:06 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.3ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-13 23:40:13 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/locales/1/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:40:14 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"1"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 1]]
+  ↳ app/controllers/locales_controller.rb:17
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locales/1/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:40:16 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"1"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 1]]
+  ↳ app/controllers/locales_controller.rb:17
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-13 23:40:20 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-13 23:40:21 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.5ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/places" for 172.17.0.1 at 2018-11-14 00:04:52 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/places"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales" for 172.17.0.1 at 2018-11-14 00:05:58 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (0.6ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/places" for 172.17.0.1 at 2018-11-14 00:06:01 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/places"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/places" for 172.17.0.1 at 2018-11-14 00:07:05 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/places"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/places" for 172.17.0.1 at 2018-11-14 00:07:34 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/places"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales" for 172.17.0.1 at 2018-11-14 00:07:36 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:07:38 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.6ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.4ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.7ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/places" for 172.17.0.1 at 2018-11-14 00:07:38 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/places"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:16:00 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (1.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (1.0ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (1.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/places" for 172.17.0.1 at 2018-11-14 00:16:00 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/places"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:16:34 +0000
+Started GET "/places" for 172.17.0.1 at 2018-11-14 00:16:34 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.5ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  
+  ↳ app/models/monitoring_point.rb:8
+ActionController::RoutingError (No route matches [GET] "/places"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[36mMonitoringLog Load (6.6ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 20ms (Views: 0.3ms | ActiveRecord: 10.5ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:19:18 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.7ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.4ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+Started GET "/places" for 172.17.0.1 at 2018-11-14 00:19:18 +0000
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  
+ActionController::RoutingError (No route matches [GET] "/places"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[36mMonitoringLog Load (10.6ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 22ms (Views: 0.3ms | ActiveRecord: 14.6ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:20:20 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.5ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (1.6ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/places" for 172.17.0.1 at 2018-11-14 00:20:20 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/places"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/places" for 172.17.0.1 at 2018-11-14 00:20:38 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/places"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:21:08 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.3ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:21:44 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:22:03 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:22:11 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.6ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:22:16 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.5ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:23:03 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:23:06 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.6ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 11ms (Views: 2.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:23:21 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:23:27 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.3ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:23:32 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:23:37 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:23:43 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:23:50 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.5ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/locales/2/monitoring_points" for 172.17.0.1 at 2018-11-14 00:24:33 +0000
+Processing by MonitoringPointsController#create as HTML
+  Parameters: {"monitoring_point"=>{"title"=>"Cozinha ", "description"=>"Cozinha 1", "locale_id"=>"2"}, "locale_id"=>"2"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/monitoring_points_controller.rb:35
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/monitoring_points_controller.rb:35
+  [1m[36mMonitoringPoint Create (25.9ms)[0m  [1m[32mINSERT INTO "monitoring_points" ("title", "description", "locale_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Cozinha "], ["description", "Cozinha 1"], ["locale_id", 2], ["created_at", "2018-11-14 00:24:33.499006"], ["updated_at", "2018-11-14 00:24:33.499006"]]
+  ↳ app/controllers/monitoring_points_controller.rb:35
+  [1m[35m (22.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/monitoring_points_controller.rb:35
+Completed 200 OK in 58ms (Views: 0.1ms | ActiveRecord: 48.8ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:24:41 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 2], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 2.5ms)
+
+
+  
+NoMethodError (undefined method `created_at' for nil:NilClass):
+  
+app/models/monitoring_point.rb:9:in `monitoring_logs_response'
+app/controllers/locales_controller.rb:17:in `map'
+app/controllers/locales_controller.rb:17:in `show_monitoring_points'
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:24:45 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.2ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+  [1m[36mCACHE MonitoringLog Load (0.0ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 1], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:10
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.3ms)[0m  [1m[34mSELECT  "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1 ORDER BY "monitoring_logs"."id" DESC LIMIT $2[0m  [["monitoring_point_id", 2], ["LIMIT", 1]]
+  ↳ app/models/monitoring_point.rb:9
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.6ms)
+
+
+  
+NoMethodError (undefined method `created_at' for nil:NilClass):
+  
+app/models/monitoring_point.rb:9:in `monitoring_logs_response'
+app/controllers/locales_controller.rb:17:in `map'
+app/controllers/locales_controller.rb:17:in `show_monitoring_points'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-14 00:24:45 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:26:06 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.2ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:10
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.3ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 21.3ms)
+
+
+  
+NoMethodError (undefined method `created_at' for nil:NilClass):
+  
+app/models/monitoring_point.rb:11:in `monitoring_logs_response'
+app/controllers/locales_controller.rb:17:in `map'
+app/controllers/locales_controller.rb:17:in `show_monitoring_points'
+Started GET "/favicon.ico" for 172.17.0.1 at 2018-11-14 00:26:06 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:26:17 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.2ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:10
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.3ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 56ms (Views: 0.3ms | ActiveRecord: 14.4ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:26:22 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.4ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.3ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:10
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.2ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:31:32 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.6ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.4ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.2ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:10
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.3ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:31:41 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.3ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:10
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.4ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:34:30 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.7ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.4ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.3ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:10
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.2ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/locales/2/monitoring_points" for 172.17.0.1 at 2018-11-14 00:36:05 +0000
+Processing by MonitoringPointsController#create as HTML
+  Parameters: {"monitoring_point"=>{"title"=>"Jardim 1", "description"=>"Jardim Legal", "locale_id"=>"2"}, "locale_id"=>"2"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/monitoring_points_controller.rb:35
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/monitoring_points_controller.rb:35
+  [1m[36mMonitoringPoint Create (0.8ms)[0m  [1m[32mINSERT INTO "monitoring_points" ("title", "description", "locale_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Jardim 1"], ["description", "Jardim Legal"], ["locale_id", 2], ["created_at", "2018-11-14 00:36:05.665756"], ["updated_at", "2018-11-14 00:36:05.665756"]]
+  ↳ app/controllers/monitoring_points_controller.rb:35
+  [1m[35m (14.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/monitoring_points_controller.rb:35
+Completed 200 OK in 26ms (Views: 0.4ms | ActiveRecord: 16.4ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:36:06 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.2ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:10
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.2ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:10
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 3]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.2ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 3]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/locales/2/show_monitoring_points" for 172.17.0.1 at 2018-11-14 00:36:16 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"2"}
+  [1m[36mLocale Load (1.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:41
+  [1m[36mMonitoringPoint Load (0.3ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 2]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.2ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 1]]
+  ↳ app/models/monitoring_point.rb:10
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.2ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 2]]
+  ↳ app/models/monitoring_point.rb:10
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 3]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.5ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 3]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 13ms (Views: 0.4ms | ActiveRecord: 3.9ms)
+
+
