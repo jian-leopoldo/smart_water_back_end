@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  title: MyString
+  monitoring_point_id: 1
+  max_value: 1.5
+
+two:
+  type: 
+  title: MyString
+  monitoring_point_id: 1
+  max_value: 1.5
