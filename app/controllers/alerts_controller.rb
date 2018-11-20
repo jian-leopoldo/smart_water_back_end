@@ -39,7 +39,7 @@ class AlertsController < ApplicationController
   private 
 
   def alert_params
-    params.require(:alert).permit(:title, :type, :max_value)
+    params.require(:alert).permit(:title, :alert_type, :max_value)
           .merge(monitoring_point_id: params[:monitoring_point_id])   
   end
 

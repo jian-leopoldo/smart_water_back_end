@@ -3,7 +3,7 @@ class MonitoringLogsController < ApplicationController
 
   def index
     @monitoring_log = MonitoringLog.where(monitoring_point_id: params[:monitoring_point_id])
-    render json: @monitoring_log.to_json
+    render json: @monitoring_log.map(&:as_api_response).to_json
   end
 
   def show
@@ -39,7 +39,7 @@ class MonitoringLogsController < ApplicationController
   private 
 
   def monitoring_log_params
-    params.require(:monitoring_log).permit(:monitoring_point_id, :point_value)
+    params.require(:monitoring_log).permit(:monitoring_point_id, :point_value, :current_value)
           .merge(monitoring_point_id: params[:monitoring_point_id])   
   end
 
