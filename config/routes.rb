@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :users
   post '/create_user', to: 'users#create_user'
   resources :locales do
+    get 'get_charts_data'
     get 'show_monitoring_points'
     resources :monitoring_points do
       resources :alerts

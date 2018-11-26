@@ -10,6 +10,10 @@ class LocalesController < ApplicationController
     render json: @locale.to_json
   end
 
+  def get_charts_data
+    render json: MonitoringPoint.show_charts(params[:id_1], params[:id_2])
+  end
+
   def destroy
   end
 
