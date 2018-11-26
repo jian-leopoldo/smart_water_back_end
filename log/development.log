@@ -15138,3 +15138,1194 @@ Processing by LocalesController#show as */*
 Completed 200 OK in 19ms (Views: 0.2ms | ActiveRecord: 5.3ms)
 
 
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 17:38:00 +0000
+  [1m[35m (24.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (25.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 200 OK in 103ms (Views: 2.0ms | ActiveRecord: 58.9ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 17:38:06 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 17:38:10 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales/1/show_monitoring_points" for 172.17.0.1 at 2018-11-25 17:38:13 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/locales/1/show_monitoring_points" for 172.17.0.1 at 2018-11-25 17:38:18 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 17:38:47 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 17:41:58 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 17:55:23 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 17:55:42 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 17:56:37 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 3ms (Views: 0.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 17:56:40 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 18:21:36 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 18:30:43 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 5ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 18:37:40 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 18:39:07 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 18:39:17 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 18:52:48 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 18:53:52 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 18:56:01 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 4ms (Views: 0.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 18:56:32 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 7ms (Views: 0.2ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:00:36 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:01:09 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:01:13 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:01:19 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:03:23 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:03:46 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:04:23 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:04:27 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:05:12 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:10:07 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:10:18 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:18:11 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 3ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:18:15 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 3ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:18:27 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locales/undefined/show_monitoring_points" for 172.17.0.1 at 2018-11-25 19:18:27 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"undefined"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:18:53 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locales/undefined/show_monitoring_points" for 172.17.0.1 at 2018-11-25 19:18:53 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"undefined"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:19:04 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:29:38 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (12.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian15@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 294ms (Views: 0.2ms | ActiveRecord: 40.7ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:29:39 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:30:20 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:30:21 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:14
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:31:43 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 10ms (Views: 1.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:31:43 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:18
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:32:14 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:32:15 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:32:29 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:32:30 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:32:53 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:32:53 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:32:55 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:35:00 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 403 Forbidden in 4ms (Views: 0.1ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:38:20 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:39:05 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:39:07 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 403 Forbidden in 5ms (Views: 0.5ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:39:07 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 403 Forbidden in 3ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:39:07 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 403 Forbidden in 5ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:39:08 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 403 Forbidden in 3ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:47:07 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"jian15@teste.com", "password"=>"[FILTERED]"}, "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "user"=>{"email"=>"jian15@teste.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 403 Forbidden in 3ms (Views: 0.1ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 19:48:27 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian15@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 129ms (Views: 0.2ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 19:48:27 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 3ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 20:10:00 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 403 Forbidden in 3ms (Views: 0.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 20:10:23 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 20:10:27 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 20:11:29 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 20:14:26 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 3ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 20:14:46 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian15@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 144ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 20:14:47 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 20:16:11 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 20:16:19 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 20:16:30 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian15@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 113ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 20:29:07 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 4ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 20:34:15 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 20:35:49 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian15@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 127ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 20:35:50 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 20:44:03 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:30:37 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 3ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:30:37 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 7ms (Views: 0.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:30:39 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:30:43 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:30:44 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:31:00 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:31:00 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:31:26 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:31:26 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:32:08 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:32:08 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:32:19 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:32:19 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:32:25 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:32:39 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:34:12 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:35:04 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:36:07 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:36:16 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:36:21 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 4ms (Views: 0.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:36:23 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales/undefined/show_monitoring_points" for 172.17.0.1 at 2018-11-25 22:36:27 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"undefined"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:36:34 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 7ms (Views: 0.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/locales/undefined/show_monitoring_points" for 172.17.0.1 at 2018-11-25 22:36:39 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"undefined"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/locales" for 172.17.0.1 at 2018-11-25 22:52:02 +0000
+Processing by LocalesController#create as HTML
+  Parameters: {"locale"=>{"title"=>"Casa 1", "address"=>"Rua DR pedrosa 78", "description"=>"Casa muito legal"}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 6ms (Views: 0.2ms | ActiveRecord: 3.5ms)
+
+
+Started POST "/locales" for 172.17.0.1 at 2018-11-25 22:53:18 +0000
+Processing by LocalesController#create as HTML
+  Parameters: {"locale"=>{"title"=>"Casa 1", "address"=>"Doidera maxima", "description"=>"Casa 1"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 4ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started POST "/login" for 172.17.0.1 at 2018-11-25 22:57:55 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 403 Forbidden in 8ms (Views: 0.5ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 22:58:10 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian15@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 160ms (Views: 0.2ms | ActiveRecord: 12.1ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 22:58:10 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/locales" for 172.17.0.1 at 2018-11-25 22:58:27 +0000
+Processing by LocalesController#create as HTML
+  Parameters: {"locale"=>{"title"=>"Casa 1", "address"=>"Rua Dr pedrosa 22", "description"=>"Descrição legal"}}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 5ms (Views: 0.5ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 23:49:07 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian15@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 132ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 23:49:07 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 23:50:45 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian15@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 134ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 23:50:46 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 23:51:00 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 4ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 23:51:36 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian15@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 124ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 23:52:48 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian15@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 129ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 23:53:10 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian17@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian17@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian17@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 403 Forbidden in 3ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 23:53:22 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian15@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 135ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 23:53:56 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian15@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 147ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 23:54:35 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian17@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian17@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian17@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 403 Forbidden in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 23:54:45 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian15@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 140ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 23:54:50 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"jian15@teste.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jian15@teste.com"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 200 OK in 162ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login" for 172.17.0.1 at 2018-11-25 23:55:34 +0000
+Processing by ApplicationController#login as HTML
+  Parameters: {"headers"=>{"Content-Type"=>"application/json"}, "email"=>"", "password"=>"[FILTERED]", "application"=>{"headers"=>{"Content-Type"=>"application/json"}, "email"=>"", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 23:55:39 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 2ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/locales" for 172.17.0.1 at 2018-11-25 23:55:56 +0000
+Processing by LocalesController#create as HTML
+  Parameters: {"locale"=>{"title"=>"Casa 1", "address"=>"Rua Dr pedrosa 22", "description"=>"Casa 1"}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 6ms (Views: 0.5ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/locales" for 172.17.0.1 at 2018-11-25 23:55:57 +0000
+Processing by LocalesController#create as HTML
+  Parameters: {"locale"=>{"title"=>"Casa 1", "address"=>"Rua Dr pedrosa 22", "description"=>"Casa 1"}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL AND "users"."authentication_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Filter chain halted as :require_authentication! rendered or redirected
+Completed 403 Forbidden in 5ms (Views: 0.4ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/locales" for 172.17.0.1 at 2018-11-25 23:56:50 +0000
+Processing by LocalesController#create as HTML
+  Parameters: {"locale"=>{"title"=>"Casa 21 ", "address"=>"Dr pedrosa 22", "description"=>"Casa 21 "}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 AND "users"."authentication_token" = $2 LIMIT $3[0m  [["email", "jian15@teste.com"], ["authentication_token", "zyyxPZBxj2Kyq__bGvyU"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.3ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/locales_controller.rb:25:in `create'
+Started POST "/locales" for 172.17.0.1 at 2018-11-25 23:57:49 +0000
+Processing by LocalesController#create as HTML
+  Parameters: {"locale"=>{"title"=>"Casa 21 ", "address"=>"Dr pedrosa 22", "description"=>"Casa 21 "}}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 AND "users"."authentication_token" = $2 LIMIT $3[0m  [["email", "jian15@teste.com"], ["authentication_token", "zyyxPZBxj2Kyq__bGvyU"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/locales_controller.rb:26
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:26
+  [1m[36mLocale Create (47.4ms)[0m  [1m[32mINSERT INTO "locales" ("title", "address", "description", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Casa 21 "], ["address", "Dr pedrosa 22"], ["description", "Casa 21 "], ["created_at", "2018-11-25 23:57:50.245035"], ["updated_at", "2018-11-25 23:57:50.245035"], ["user_id", 8]]
+  ↳ app/controllers/locales_controller.rb:26
+  [1m[35m (38.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/locales_controller.rb:26
+Completed 200 OK in 291ms (Views: 0.3ms | ActiveRecord: 120.0ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 23:57:50 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 AND "users"."authentication_token" = $2 LIMIT $3[0m  [["email", "jian15@teste.com"], ["authentication_token", "zyyxPZBxj2Kyq__bGvyU"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT "locales".* FROM "locales"[0m
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 23:58:13 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 AND "users"."authentication_token" = $2 LIMIT $3[0m  [["email", "jian15@teste.com"], ["authentication_token", "zyyxPZBxj2Kyq__bGvyU"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT "locales".* FROM "locales" WHERE "locales"."user_id" = $1[0m  [["user_id", 8]]
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 64ms (Views: 0.1ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/locales/7/show_monitoring_points" for 172.17.0.1 at 2018-11-25 23:58:15 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"7"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 AND "users"."authentication_token" = $2 LIMIT $3[0m  [["email", "jian15@teste.com"], ["authentication_token", "zyyxPZBxj2Kyq__bGvyU"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:42
+Started GET "/locales/7/show_monitoring_points" for 172.17.0.1 at 2018-11-25 23:58:15 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"7"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 AND "users"."authentication_token" = $2 LIMIT $3[0m  [["email", "jian15@teste.com"], ["authentication_token", "zyyxPZBxj2Kyq__bGvyU"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+  [1m[36mLocale Load (0.5ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:42
+  [1m[36mMonitoringPoint Load (342.2ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 7]]
+  ↳ app/controllers/locales_controller.rb:17
+Completed 200 OK in 349ms (Views: 0.3ms | ActiveRecord: 344.4ms)
+
+
+  [1m[36mMonitoringPoint Load (363.0ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 7]]
+  ↳ app/controllers/locales_controller.rb:17
+Completed 200 OK in 525ms (Views: 0.4ms | ActiveRecord: 368.1ms)
+
+
+Started GET "/locales/7/show_monitoring_points" for 172.17.0.1 at 2018-11-25 23:58:17 +0000
+Started GET "/locales/7/show_monitoring_points" for 172.17.0.1 at 2018-11-25 23:58:17 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"7"}
+Processing by LocalesController#show_monitoring_points as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 AND "users"."authentication_token" = $2 LIMIT $3[0m  [["email", "jian15@teste.com"], ["authentication_token", "zyyxPZBxj2Kyq__bGvyU"], ["LIMIT", 1]]
+  Parameters: {"locale_id"=>"7"}
+  ↳ app/controllers/application_controller.rb:17
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 AND "users"."authentication_token" = $2 LIMIT $3[0m  [["email", "jian15@teste.com"], ["authentication_token", "zyyxPZBxj2Kyq__bGvyU"], ["LIMIT", 1]]
+  [1m[36mLocale Load (0.8ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+  ↳ app/controllers/locales_controller.rb:42
+  [1m[36mMonitoringPoint Load (0.4ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 7]]
+  ↳ app/controllers/locales_controller.rb:17
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 2.5ms)
+
+
+  [1m[36mLocale Load (4.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:42
+  [1m[36mMonitoringPoint Load (0.4ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 7]]
+  ↳ app/controllers/locales_controller.rb:17
+Completed 200 OK in 17ms (Views: 0.3ms | ActiveRecord: 4.9ms)
+
+
+Started POST "/locales/7/monitoring_points" for 172.17.0.1 at 2018-11-25 23:58:21 +0000
+Processing by MonitoringPointsController#create as HTML
+  Parameters: {"monitoring_point"=>{"title"=>"", "description"=>"", "locale_id"=>"7"}, "locale_id"=>"7"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 AND "users"."authentication_token" = $2 LIMIT $3[0m  [["email", "jian15@teste.com"], ["authentication_token", "zyyxPZBxj2Kyq__bGvyU"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/monitoring_points_controller.rb:35
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/monitoring_points_controller.rb:35
+  [1m[36mMonitoringPoint Create (221.2ms)[0m  [1m[32mINSERT INTO "monitoring_points" ("title", "description", "locale_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", ""], ["description", ""], ["locale_id", 7], ["created_at", "2018-11-25 23:58:21.871902"], ["updated_at", "2018-11-25 23:58:21.871902"]]
+  ↳ app/controllers/monitoring_points_controller.rb:35
+  [1m[35m (30.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/monitoring_points_controller.rb:35
+Completed 200 OK in 280ms (Views: 0.3ms | ActiveRecord: 256.6ms)
+
+
+Started GET "/locales/7/show_monitoring_points" for 172.17.0.1 at 2018-11-25 23:58:22 +0000
+Started GET "/locales/7/show_monitoring_points" for 172.17.0.1 at 2018-11-25 23:58:22 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"7"}
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"7"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 AND "users"."authentication_token" = $2 LIMIT $3[0m  [["email", "jian15@teste.com"], ["authentication_token", "zyyxPZBxj2Kyq__bGvyU"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 AND "users"."authentication_token" = $2 LIMIT $3[0m  [["email", "jian15@teste.com"], ["authentication_token", "zyyxPZBxj2Kyq__bGvyU"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+  ↳ app/controllers/application_controller.rb:17
+  [1m[36mLocale Load (1.6ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:42
+  [1m[36mLocale Load (2.6ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:42
+  [1m[36mMonitoringPoint Load (2.4ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 7]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[36mMonitoringPoint Load (32.8ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 7]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (91.2ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 11]]
+  [1m[35m (91.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 11]]
+  ↳ app/models/monitoring_point.rb:8
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.8ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 11]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 146ms (Views: 1.9ms | ActiveRecord: 98.4ms)
+
+
+  [1m[36mMonitoringLog Load (4.4ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 11]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 152ms (Views: 0.7ms | ActiveRecord: 131.8ms)
+
+
+Started GET "/locales/7/monitoring_points/11/monitoring_logs" for 172.17.0.1 at 2018-11-25 23:58:26 +0000
+Processing by MonitoringLogsController#index as HTML
+  Parameters: {"locale_id"=>"7", "monitoring_point_id"=>"11"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 AND "users"."authentication_token" = $2 LIMIT $3[0m  [["email", "jian15@teste.com"], ["authentication_token", "zyyxPZBxj2Kyq__bGvyU"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+  [1m[36mMonitoringLog Load (0.3ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 11]]
+  ↳ app/controllers/monitoring_logs_controller.rb:6
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locales" for 172.17.0.1 at 2018-11-25 23:58:41 +0000
+Processing by LocalesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 AND "users"."authentication_token" = $2 LIMIT $3[0m  [["email", "jian15@teste.com"], ["authentication_token", "zyyxPZBxj2Kyq__bGvyU"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+  [1m[36mLocale Load (0.3ms)[0m  [1m[34mSELECT "locales".* FROM "locales" WHERE "locales"."user_id" = $1[0m  [["user_id", 8]]
+  ↳ app/controllers/locales_controller.rb:6
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locales/7/show_monitoring_points" for 172.17.0.1 at 2018-11-25 23:58:43 +0000
+Started GET "/locales/7/show_monitoring_points" for 172.17.0.1 at 2018-11-25 23:58:43 +0000
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"7"}
+Processing by LocalesController#show_monitoring_points as HTML
+  Parameters: {"locale_id"=>"7"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 AND "users"."authentication_token" = $2 LIMIT $3[0m  [["email", "jian15@teste.com"], ["authentication_token", "zyyxPZBxj2Kyq__bGvyU"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 AND "users"."authentication_token" = $2 LIMIT $3[0m  [["email", "jian15@teste.com"], ["authentication_token", "zyyxPZBxj2Kyq__bGvyU"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:17
+  [1m[36mLocale Load (1.8ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:42
+  [1m[36mLocale Load (1.6ms)[0m  [1m[34mSELECT  "locales".* FROM "locales" WHERE "locales"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/locales_controller.rb:42
+  [1m[36mMonitoringPoint Load (1.4ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 7]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[36mMonitoringPoint Load (1.5ms)[0m  [1m[34mSELECT "monitoring_points".* FROM "monitoring_points" WHERE "monitoring_points"."locale_id" = $1[0m  [["locale_id", 7]]
+  ↳ app/controllers/locales_controller.rb:17
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 11]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM("monitoring_logs"."point_value") FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 11]]
+  ↳ app/models/monitoring_point.rb:8
+  [1m[36mMonitoringLog Load (0.7ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 11]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 7.7ms)
+
+
+  [1m[36mMonitoringLog Load (1.5ms)[0m  [1m[34mSELECT "monitoring_logs".* FROM "monitoring_logs" WHERE "monitoring_logs"."monitoring_point_id" = $1[0m  [["monitoring_point_id", 11]]
+  ↳ app/models/monitoring_point.rb:10
+Completed 200 OK in 15ms (Views: 0.3ms | ActiveRecord: 6.6ms)
+
+

@@ -2,7 +2,7 @@ class LocalesController < ApplicationController
   before_action :set_locale, only: [:show, :destroy, :update, :show_monitoring_points]
 
   def index
-    @locales = Locale.all
+    @locales = @admin.locales
     render json: @locales.to_json
   end
 
@@ -34,7 +34,8 @@ class LocalesController < ApplicationController
   private 
 
   def locale_params
-    params.require(:locale).permit(:title, :description, :address)    
+    params.require(:locale).permit(:title, :description, :address)
+                            .merge(user_id: @admin.id)    
   end
 
   def set_locale
