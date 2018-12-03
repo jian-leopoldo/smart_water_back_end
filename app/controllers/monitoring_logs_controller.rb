@@ -1,5 +1,5 @@
 class MonitoringLogsController < ApplicationController
-  before_action :set_locale, only: [:show, :destroy, :update]
+  before_action :set_monitoring_log, only: [:show, :destroy, :update]
 
   def index
     @monitoring_log = MonitoringLog.where(monitoring_point_id: params[:monitoring_point_id])
@@ -43,7 +43,7 @@ class MonitoringLogsController < ApplicationController
           .merge(monitoring_point_id: params[:monitoring_point_id])   
   end
 
-  def set_locale
+  def set_monitoring_log
     @monitoring_log = MonitoringLog.find(params[:id])
   end
 end

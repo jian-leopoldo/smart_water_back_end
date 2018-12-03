@@ -1,5 +1,5 @@
 class MonitoringPointsController < ApplicationController
-  before_action :set_locale, only: [:show, :destroy, :update, :monitoring_logs_show]
+  before_action :set_monitoring_point, only: [:show, :destroy, :update, :monitoring_logs_show]
 
   def index
     @monitoring_point = MonitoringPoint.all
@@ -46,7 +46,7 @@ class MonitoringPointsController < ApplicationController
     params.require(:monitoring_point).permit(:title, :description, :locale_id)    
   end
 
-  def set_locale
+  def set_monitoring_point
     @monitoring_point = MonitoringPoint.find(params[:id] || params[:monitoring_point_id])
   end
 end

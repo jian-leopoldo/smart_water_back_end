@@ -1,6 +1,7 @@
 class MonitoringPoint < ApplicationRecord
   belongs_to :locale
   has_many :monitoring_logs
+  has_many :alerts
 
 
   def monitoring_logs_response
@@ -26,7 +27,6 @@ class MonitoringPoint < ApplicationRecord
       day = Date.today.beginning_of_week - 1.week + i.days
       response[monitoring_point_1.title] = monitoring_point_1.monitoring_logs.where(created_at: day.beginning_of_day..day.end_of_day)
       .sum(:point_value)
-      p Date.today.beginning_of_week - 1.week + i-1.days
       response[monitoring_point_2.title] = monitoring_point_2.monitoring_logs.where(created_at: day.beginning_of_day..day.end_of_day)
             .sum(:point_value)
       array_to_return.push(response)

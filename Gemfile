@@ -30,6 +30,8 @@ gem 'rack-cors'
 
 gem 'devise'
 
+gem 'rails-erd'
+
 gem 'simple_token_authentication', '~> 1.0' 
 
 group :development, :test do
