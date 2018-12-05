@@ -2,8 +2,9 @@ class AlertsController < ApplicationController
   before_action :set_alert, only: [:show, :destroy, :update]
 
   def index
-    @alert = Alert.where(monitoring_point_id: params[:monitoring_point_id])
-    render json: @alert.to_json
+    @alerts = Alert.where(monitoring_point_id: params[:monitoring_point_id])
+    resp = @alerts.map {|alert| alert.as_json.merge(monitoring_point: alert.monitoring_point.title )}
+    render json: resp.to_json
   end
 
   def show

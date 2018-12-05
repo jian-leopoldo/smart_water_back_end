@@ -18,7 +18,7 @@ class LocalesController < ApplicationController
   end
 
   def show_monitoring_points
-    render json: @locale.as_json.merge(monitoring_points: @locale.monitoring_points.map(&:monitoring_logs_response))
+    render json: @locale.as_json.merge(alerts: MonitoringPoint.show_alerts(@locale.monitoring_points.pluck(:id)),  monitoring_points: @locale.monitoring_points.map(&:monitoring_logs_response))
   end
 
   def update

@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::API
-  before_action :require_authentication!, except: [:login]
+  before_action :require_authentication!, except: [:login, :create_user]
   
   def login
     adm = User.find_by(email: params[:email])

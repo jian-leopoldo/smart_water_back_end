@@ -5,7 +5,6 @@ class MonitoringLog < ApplicationRecord
 
     def create_alert
       monitoring_point.alerts.each do |alert|
-        byebug
         total_value = monitoring_point.monitoring_logs.sum(:point_value)
         AlertMessage.create(alert: alert) if total_value > alert.max_value
       end

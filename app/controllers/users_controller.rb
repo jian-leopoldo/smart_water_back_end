@@ -40,11 +40,12 @@ class UsersController < ApplicationController
   private 
 
   def user_params
-    byebug
     params.require(:user).permit(:email, :name, :password)
   end
 
   def set_user
+    @user = @admin
+    return if @admin.present?
     @user = User.find(params[:id])
   end
 end

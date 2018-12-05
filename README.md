@@ -1,25 +1,33 @@
-# README
+# Rodar Aplicação Ruby Water Monitoring
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+## Instalação das bibliotecas
 
-* System dependencies
+Rode o comando para instalar as bibliotecas necessárias
 
-* Configuration
+```bash
+bundle install
+```
 
-* Database creation
+## Criação do banco de dados
 
-* Database initialization
+Comando para criar o banco de dados para a aplicação
 
-* How to run the test suite
+```bash
+rake db:create
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Criação do banco de dados
 
-* Deployment instructions
+Comando para realizar a criação das tabelas e relações no banco de dados
 
-* ...
-# smart_water_back_end
+```bash
+rake db:migrate
+```
+
+Comando para rodar o servidor
+
+```bash
+rails s 
+```
